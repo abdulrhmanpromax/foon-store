@@ -1,0 +1,34 @@
+# Laravel & Environment Secrets
+/.env
+/.env.*
+!.env.example
+/storage/*.key
+/storage/oauth-*.key
+
+# Dependencies & Build Artifacts
+/node_modules
+/vendor
+/public/build
+/public/hot
+/public/storage
+
+# Local Databases & Backups
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.tar.gz
+*.zip
+/database/*.sqlite
+
+# Logs, Cache & IDE Files
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/.phpunit.result.cache
+.DS_Store
+Thumbs.db
+/.idea
+/.vscode
